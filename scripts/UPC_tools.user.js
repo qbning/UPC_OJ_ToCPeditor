@@ -29,11 +29,6 @@
     }
   `);
 
-    // 注册菜单命令
-    GM_registerMenuCommand('My Script', function() {
-        // 在这里编写您的 JavaScript 代码
-        alert('Hello, World!');
-    });
 
     // 创建按钮并添加到页面中
     const button = document.createElement('button');
